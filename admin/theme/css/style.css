@@ -1,0 +1,63 @@
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,700,800&subset=latin,latin-ext);*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i&subset=latin-ext');
+
+html {
+	/*overflow-y: scroll;*/
+	height: 100%;
+}
+
+/* Styles start here */
+
+body {
+	font-family: 'Roboto','Open Sans', arial, sans-serif;
+	height: 100%;
+}
+
+.container-fluid, .container-fluid .row {
+	height: 100%;
+}
+
+.left {
+	background: #3d435d;
+	height: 100%;
+	padding: 30px;
+}
+
+.left li {
+	list-style-type: none;
+	padding: 10px 0;
+}
+
+.left li a {
+	color: white;
+}
+
+.right {
+	padding: 10px 30px;
+}
+
+/* media queries*/
+@media (max-width: 768px){
+	 
+}
+
+@media (min-width: 769px){
+
+}
+
+@media (min-width: 992px){
+
+}
+
+@media (min-width: 1220px){
+
+}
+
+
+@media (min-width: 1550px){
+
+}
+
+@media (min-width: 1850px){
+
+}
