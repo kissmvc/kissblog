@@ -1,4 +1,4 @@
-# KISS Blog
+# KISS Blog - KISS Framework Sample Application
 Simple example of using KISS Framework. Simple blog application.
 
 ## Installation
