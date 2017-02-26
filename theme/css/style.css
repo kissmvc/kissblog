@@ -1,0 +1,151 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300,700,800&subset=latin,latin-ext);
+/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i&subset=latin-ext');*/
+
+html {
+	/*overflow-y: scroll;*/
+	height: 100%;
+}
+
+div { *zoom: 1; }
+div:before, div:after { display: table; content: ""; }
+div:after { clear: both; }
+
+/* Styles start here */
+body {
+	font-family: 'Open Sans', arial, sans-serif;
+	height: 100%;
+	min-height: 100%;
+	background: #4d8fd1 linear-gradient(to right, #4d8fd1 0%,#e87d84 100%);
+	line-height: 1.85;
+}
+
+a {
+	color: #c90000;
+}
+
+.container, .container .row {
+	min-height: 100%;
+}
+
+.container {
+	background: white;
+	box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+
+.header {
+	text-align: center;
+	padding: 25px 0 40px;
+	background: url('../images/header.jpg') center no-repeat;
+}
+
+.header h1 a {
+	color: #222;
+	font-style: italic;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+}
+
+.header h2 {
+	color: #fff;
+	font-size: 120%;
+	font-style: italic;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.left {
+	/*background: #eee;*/
+	height: 100%;
+	padding: 30px;
+}
+
+.left h1 {
+	margin-top: 10px;
+	font-size: 25px;
+}
+
+.left ul.nav {
+	padding-left: 0;
+}
+
+.left ul.nav li {
+	list-style-type: none;
+	padding: 0;
+}
+
+.left ul.nav li a {
+	color: #222;
+	text-decoration: underline;
+}
+
+.right {
+	padding: 20px 30px;
+}
+
+.right h2 {
+	font-size: 24px;
+}
+
+.title-image {
+	margin: 15px 0 25px;
+}
+
+.thumb-image {
+	margin: 0 0 25px 25px;
+	float: right;
+	width: 250px;
+}
+
+.clanok h1 {
+	margin-top: 10px;
+}
+
+.clanok h2, .clanok h3 {
+	color: #EB0B25;
+	/*font-family: 'Garamond', times;
+	font-weight: bold;*/
+}
+
+.comments .uname {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 110%;
+}
+
+.comments ul {
+	margin: 15px 0 25px;
+	padding: 0;
+	list-style-type: none;
+}
+
+.comments h3 {
+	color: #4267B2;
+	font-weight: 600;
+	margin-top: 25px;
+}
+
+/* media queries*/
+@media (max-width: 768px){
+	 
+}
+
+@media (min-width: 769px){
+
+}
+
+@media (min-width: 992px){
+
+}
+
+@media (min-width: 1220px){
+
+}
+
+
+@media (min-width: 1550px){
+
+}
+
+@media (min-width: 1850px){
+
+}
