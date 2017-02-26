@@ -10,6 +10,7 @@ KISS Framework here: https://github.com/kissmvc/kissmvc
 4. Open URL of your installation.
 
 To use administration, open your base url with admin subfolder, e.g. http://localhost/kissblog/admin/
+
 Username & Password: admin
 
 ## Features
